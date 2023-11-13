@@ -1,0 +1,100 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100:200:300:400:500:600:700:800:900&display=swap);
+
+* {
+font-family: 'Montserrat';
+}
+
+/* Artistes */
+
+p.p1 {
+    color: #FF2E00;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section.touslesartistes {
+    margin-top: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+img.Picasso {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+div.picasso {
+    width: 100%;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+p.soustitre {
+    text-align: justify;
+}
+
+div.artistes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ACTUALITE */
+
+div.actualite {
+    text-align: center;
+    background-color: #f2bb0a;
+    margin-top: 60px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img.afficheexpo {
+    width: 200px;
+    height: 200px;
+}
+
+div.affiche {
+    margin-top: 40px;
+}
+
+div.ACTU {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.calendrier {
+    width: 25px;
+    object-fit: contain;
+}
+
+div.icone {
+    display: flex;
+}
+
+p.paragraphe4 {
+    font-weight: 500;
+}
+
+p.description {
+    text-align: justify;
+    max-width: 600px;
+}
+
+a.bouton {
+    background-color: #FF2E00;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
