@@ -76,7 +76,7 @@ header.header img.Logo {
     top: 23px;
 }
 section.top-page {
-background: url("images/bg_Dedal des couleurs.jpg");
+background: url("Images/bg_Dedal\ des\ couleurs\ 1.png");
 background-size: cover;
 position: absolute;
 height: 430px;
@@ -522,12 +522,18 @@ p.paragraphe7 {
 section.formulaire {
     display: flexbox;
 }
-form.formulairespace {
+div.label {
     display: flex;
+    top: 30px;
+    margin-top: 20px;
+    margin-left: 400px;
 }
 
 input.Envoyer {
     top: 50px;
     background-color: #FF2E00;
+    margin-top: 20px;
+    margin-left: 500px;
+    color: white;
 
 }
