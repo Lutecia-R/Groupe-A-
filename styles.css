@@ -454,9 +454,10 @@ p.paragraphe5 {
 }
 
 section.investissement {
+    width: 100%; 
+    height: 100%; 
+    position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 div.image-c {
@@ -495,56 +496,154 @@ a.boutonInves {
 }
 
 p.paragraphe6 {
-    position: relative;
-    width: 1072px;
-    height: 46px;
-    left: 80px;
-    top: 25px;
-    font-family: Montserrat;
-    font-size: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
+    width: 100%; 
+    height: 100%; 
+    color: black; 
+    font-size: 25px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
 }
 
 p.paragraphe7 {
-    position: relative;
-    width: 1072px;
-    height: 46px;
-    left: 400px;
-    top: 25px;
-    font-family: Montserrat;
-    font-size: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
+    width: 100%; 
+    height: 100%; 
+    text-align: center; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word;
 }
 
-section.formulaire {
-    display: flexbox;
-}
-div.label {
-    display: flex;
-    top: 30px;
-    margin-top: 20px;
-    margin-left: 400px;
+/* formulaire */
+
+div.general13{
+    width: 100%; 
+    height: 100%; 
+    position: relative
 }
 
-input.Envoyer {
-    top: 50px;
-    background-color: #FF2E00;
-    margin-top: 20px;
-    margin-left: 500px;
-    color: white;
-
+div.rectangle8{
+    width: 140.62px; 
+    height: 38.35px; 
+    left: 389px; 
+    top: 180.43px; 
+    position: absolute
 }
+
+div.rectangle9{
+    width: 140.62px; 
+    height: 38.35px; 
+    left: 0px; top: 0px; 
+    position: absolute; 
+    background: #FF2E00; 
+    border-radius: 22.50px
+}
+
+div.envoyer{
+    width: 116.22px; 
+    height: 22.08px; 
+    left: 11.62px; 
+    top: 8.14px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+div.general14{
+    width: 919.27px; 
+    height: 160.38px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
+}
+
+div.Nom{
+    width: 75.54px; 
+    height: 18.59px; 
+    left: -0px; 
+    top: 2.32px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+div.Prenom{
+    width: 113.89px; 
+    height: 18.59px; 
+    left: -0px; 
+    top: 68.57px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+div.email{
+    width: 88.32px; 
+    height: 18.59px; 
+    left: -0px; 
+    top: 125.51px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+div.rectangle10{
+    width: 784.46px; 
+    height: 37.19px; 
+    left: 134.81px; 
+    top: -0px; 
+    position: absolute; 
+    border-radius: 15px; 
+    border: 1px black solid
+}
+
+div.rectangle11{
+    width: 784.46px; 
+    height: 37.19px; 
+    left: 134.81px; 
+    top: 66.24px; 
+    position: absolute; 
+    border-radius: 15px; 
+    border: 1px black solid
+}
+
+div.rectangle12{
+    width: 784.46px; 
+    height: 37.19px; 
+    left: 134.81px; 
+    top: 123.19px; 
+    position: absolute; 
+    border-radius: 15px; 
+    border: 1px black solid
+}
+
+
 
 /* Footer */
 
 div.general{
     width: 100%;
     height: 100%;
-    position: relative
+    position: relative;
+    top: 250px;
 }
 
 div.background{
@@ -644,86 +743,199 @@ img.address{
 }
 
 div.general6{
-    width: 197.06px; height: 78px; left: 283px; top: 0px; position: absolute
+    width: 197.06px; 
+    height: 78px; 
+    left: 283px; 
+    top: 0px; 
+    position: absolute
 }
 
 div.general7{
-    width: 196.61px; height: 37px; left: 0px; top: 0px; position: absolute
+    width: 196.61px; 
+    height: 37px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
 }
 
 div.rectangle3{
-    width: 37px; height: 37px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 9999px
+    width: 37px; 
+    height: 37px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 9999px
 }
 
 div.textetel{
-    width: 145.82px; height: 24.51px; left: 50.79px; top: 6.90px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; word-wrap: break-word
+    width: 145.82px; 
+    height: 24.51px; 
+    left: 50.79px; 
+    top: 6.90px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
 }
 
 img.tel{
-    width: 31px; height: 27px; left: 2px; top: 7px; position: absolute
+    width: 31px; 
+    height: 27px; 
+    left: 2px; 
+    top: 7px; 
+    position: absolute
 }
 
 div.general8{
-    width: 196.06px; height: 35px; left: 1px; top: 43px; position: absolute
+    width: 196.06px; 
+    height: 35px; 
+    left: 1px; 
+    top: 43px; 
+    position: absolute
 }
 
 div.rectangle4{
-    width: 35px; height: 35px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 9999px
+    width: 35px; 
+    height: 35px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 9999px
 }
 
 div.textefax{
-    width: 145.82px; height: 26.96px; left: 50.24px; top: 5.46px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; word-wrap: break-word
+    width: 145.82px; 
+    height: 26.96px; 
+    left: 50.24px; 
+    top: 5.46px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
 }
 
 img.fax{
-    width: 25px; height: 22px; left: 5px; top: 5px; position: absolute
+    width: 25px; 
+    height: 22px; 
+    left: 5px; 
+    top: 5px; 
+    position: absolute
 }
 
 div.general9{
-    width: 238.66px; height: 81.55px; left: 539px; top: 0px; position: absolute
+    width: 238.66px; 
+    height: 81.55px; 
+    left: 539px; 
+    top: 0px; 
+    position: absolute
 }
 
 div.general10{
-    width: 238.66px; height: 37px; left: 0px; top: 0px; position: absolute
+    width: 238.66px; 
+    height: 37px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
 }
 
 div.rectangle5{
-    width: 37px; height: 37px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 9999px
+    width: 37px; 
+    height: 37px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 9999px
 }
 
 div.textemail{
-    width: 192.38px; height: 26.96px; left: 46.28px; top: 1.90px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; word-wrap: break-word
+    width: 192.38px; 
+    height: 26.96px; 
+    left: 46.28px; 
+    top: 1.90px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
 }
 
 img.email{
-    width: 26px; height: 26px; left: 6px; top: 5px; position: absolute
+    width: 26px; 
+    height: 26px; 
+    left: 6px; 
+    top: 5px; 
+    position: absolute
 }
 
 div.general11{
-    width: 238.66px; height: 38.55px; left: 0px; top: 43px; position: absolute
+    width: 238.66px; 
+    height: 38.55px; 
+    left: 0px; 
+    top: 43px; 
+    position: absolute
 }
 
 div.rectangle6{
-    width: 37px; height: 37px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 9999px
+    width: 37px; 
+    height: 37px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 9999px
 }
 
 div.texteuser{
-    width: 192.38px; height: 28.18px; left: 46.28px; top: 10.37px; position: absolute; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; word-wrap: break-word
+    width: 192.38px; 
+    height: 28.18px; 
+    left: 46.28px; 
+    top: 10.37px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Montserrat; 
+    font-weight: 700; 
+    word-wrap: break-word
 }
 
 img.user{
-    width: 25px; height: 25px; left: 6px; top: 5px; position: absolute
+    width: 25px; 
+    height: 25px; 
+    left: 6px; 
+    top: 5px; 
+    position: absolute
 }
 
 div.general12{
-    width: 192px; height: 77px; left: 0px; top: 0px; position: absolute
+    width: 192px; 
+    height: 77px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
 }
 
 img.logo2{
-    width: 187px; height: 77px; left: 0px; top: 0px; position: absolute
+    width: 187px; 
+    height: 77px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute
 }
 
 div.rectangle7{
-    width: 5px; height: 67px; left: 187px; top: 5px; position: absolute; background: white
+    width: 5px; 
+    height: 67px; 
+    left: 187px; 
+    top: 5px; 
+    position: absolute; 
+    background: white
 }
 
