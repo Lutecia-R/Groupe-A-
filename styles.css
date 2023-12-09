@@ -1,13 +1,12 @@
-
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100:200:300:400:500:600:700:800:900&display=swap);
-
 * {
-font-family: 'Montserrat';
+    font-family: 'Montserrat';
 }
 
-body{
+body {
     margin: 0 auto;
 }
+
 
 /* texte de page */
 
@@ -16,53 +15,59 @@ div.header-right {
     align-items: center;
 }
 
-div.Finance img, div.Panier img, div.Contacts img {
-width: 25px;
-height: 25px;
-object-fit: contain;
+div.Finance img,
+div.Panier img,
+div.Contacts img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
 }
 
-div.Finance, div.Panier, div.Contacts {
+div.Finance,
+div.Panier,
+div.Contacts {
     margin-right: 10px;
 }
 
-div.header-left{
+div.header-left {
     display: flex;
     align-items: center;
 }
 
 input.search {
-background-color: white;
-border-width: 0;
-border-radius: 15px;
-width: 136px;
-height: 20px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 20px;
-padding: 5px 30px 5px 10px;
+    background-color: white;
+    border-width: 0;
+    border-radius: 15px;
+    width: 136px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 30px 5px 10px;
 }
 
 div.recherche {
-display: flex;
-align-items: center;
-margin-right: 40px
+    display: flex;
+    align-items: center;
+    margin-right: 40px
 }
+
 div.recherche img {
-object-fit: contain;
-width: 25px;
-height: 25px;
-margin-left: -29px;
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    margin-left: -29px;
 }
+
 header.header {
     display: flex;
     align-items: center;
     width: 100%;
+    max-width: 100%;
     background-color: #000000;
-    position: fixed; 
+    position: fixed;
     top: 0px;
     left: 0px;
     z-index: 2;
@@ -75,54 +80,61 @@ header.header img.Logo {
     left: 28px;
     top: 23px;
 }
+
 section.top-page {
-background: url("Images/bg_Dedal\ des\ couleurs\ 1.png");
-background-size: cover;
-position: absolute;
-height: 430px;
-width: 1352px;
-left: -3px;
-top: -2px;
-padding: 0px;
+    background: url("Images/bg_Dedal\ des\ couleurs\ 1.png");
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    height: 430px;
+    width: 100%;
+    left: -3px;
+    top: -2px;
+    padding: 0px;
+    border: 0px solid red;
+    transform: translate3d(0, 0, 0);
 }
 
+.landing-page {
+    border: 0px solid red !important;
+}
+
+
 /* Page de bienvenue (landing page) */
-textarea.section-bg{
+
+textarea.section-bg {
     width: 100%;
     height: 100%;
-    position: sticky;
+    position: absolute;
     background-color: #00000044;
     resize: horizontal;
     z-index: 1;
     border-width: 0px;
     top: 0;
     left: 0;
-    margin-top: -70px;
-    margin-left: -10px;
 }
 
 .subtitle {
-position: absolute;
-width: 649px;
-height: 41px;
-left: 332px;
-top: 168px;
-z-index: 2;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 34px;
-line-height: 41px;
-text-align: center;
-color: white;
+    width: 100%;
+    border: 0px solid red;
+    padding-top: 100px;
+    height: 41px;
+    z-index: 2;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color: white;
+    position: relative;
 }
 
 .big-title {
-    position: absolute;
-    width: 414px;
+    position: relative;
+    text-align: center;
+    width: 100%;
     height: 80px;
-    left: 433px;
-    top: 217px;
     color: white;
     font-size: 66px;
     font-weight: 800;
@@ -130,6 +142,8 @@ color: white;
     padding: 10px 10px;
     z-index: 2;
 }
+
+
 /* menu de navigation */
 
 ul.nav {
@@ -143,7 +157,7 @@ ul.nav {
     margin-left: 30px;
 }
 
-ul.nav li{
+ul.nav li {
     color: white;
     font-family: 'Montserrat';
     font-style: normal;
@@ -152,9 +166,10 @@ ul.nav li{
     line-height: 24px;
 }
 
+
 /* A propos */
 
-section.Apropos{
+section.Apropos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,8 +177,8 @@ section.Apropos{
 }
 
 img.image {
-width: 250px;
-object-fit: contain;
+    width: 250px;
+    object-fit: contain;
 }
 
 div.Texte {
@@ -196,10 +211,11 @@ a.decouverte {
     font-size: 09px;
     padding: 10px 15px;
     border-radius: 30px;
-
 }
 
+
 /* Oeuvre peinture */
+
 div.oeuvres {
     text-align: center;
     background-color: #f2bb0a;
@@ -207,10 +223,12 @@ div.oeuvres {
     padding: 10px;
     font-weight: bold;
     font-size: 20px;
+    width: 100%;
 }
 
 div.peintures {
     margin-top: 70px;
+    padding: 0px 20px;
 }
 
 h3.Titre {
@@ -226,14 +244,23 @@ p.paragraphe2 {
     font-size: 15px;
 }
 
-div.image-a{
+div.image-a {
     display: flex;
-    justify-content: center;
     margin-top: 50px;
 }
 
+.image-lt {
+    border: 0px solid red;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 img.moietlevillage {
-    width: 200px;
+    width: 100%;
+    max-width: 300px;
     height: 160px;
     object-fit: cover;
     border: 4px solid black;
@@ -259,6 +286,7 @@ img.imagepanier {
 div.image1 {
     margin-left: 7px;
     margin-right: 7px;
+    margin-bottom: 20px;
 }
 
 div.icone1 {
@@ -269,16 +297,19 @@ div.icone1 {
     margin-top: 5px;
 }
 
+
 /* Oeuvre d'Art */
-section.OeuvreArts{
+
+section.OeuvreArts {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 img.image {
-width: 250px;
-object-fit: contain;
+    width: 250px;
+    object-fit: contain;
 }
 
 div.Texte {
@@ -298,14 +329,14 @@ h3.Titre3 {
     color: #FF2E00;
 }
 
-div.image-b{
+div.image-b {
     display: flex;
-    justify-content: center;
     margin-top: 50px;
 }
 
 img.Visageauneznoir {
-    width: 200px;
+    width: 100%;
+    max-width: 300px;
     height: 160px;
     object-fit: cover;
     border: 4px solid black;
@@ -331,6 +362,7 @@ img.imagepanier2 {
 div.image2 {
     margin-left: 7px;
     margin-right: 7px;
+    margin-bottom: 20px;
 }
 
 div.icone2 {
@@ -340,7 +372,6 @@ div.icone2 {
     padding: 0px 10px;
     margin-top: 5px;
 }
-
 
 
 /* Artistes */
@@ -383,6 +414,7 @@ div.artistes {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 /* ACTUALITE */
 
@@ -439,23 +471,24 @@ a.bouton {
 
 p.paragraphe5 {
     position: relative;
-    width: 1119px;
-    height: 129px;
-    left: 35px;
-    top: 40px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
-    padding: 5px 30px;
+    padding: 30px 30px;
     border-radius: 46px;
     background: #F2BB0A55;
 }
 
 section.investissement {
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     position: relative;
     display: flex;
 }
@@ -496,157 +529,159 @@ a.boutonInves {
 }
 
 p.paragraphe6 {
-    width: 100%; 
-    height: 100%; 
-    color: black; 
-    font-size: 25px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
 p.paragraphe7 {
-    width: 100%; 
-    height: 100%; 
-    text-align: center; 
-    color: black; 
-    font-size: 36px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word;
 }
 
+
 /* formulaire */
 
-div.general13{
-    width: 100%; 
-    height: 100%; 
+div.general13 {
+    width: 100%;
+    height: 100%;
     position: relative
 }
 
-div.rectangle8{
-    width: 140.62px; 
-    height: 38.35px; 
-    left: 389px; 
-    top: 180.43px; 
+div.rectangle8 {
+    width: 140.62px;
+    height: 38.35px;
+    left: 389px;
+    top: 180.43px;
     position: absolute
 }
 
-div.rectangle9{
-    width: 140.62px; 
-    height: 38.35px; 
-    left: 0px; top: 0px; 
-    position: absolute; 
-    background: #FF2E00; 
+div.rectangle9 {
+    width: 140.62px;
+    height: 38.35px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #FF2E00;
     border-radius: 22.50px
 }
 
-div.envoyer{
-    width: 116.22px; 
-    height: 22.08px; 
-    left: 11.62px; 
-    top: 8.14px; 
-    position: absolute; 
-    text-align: center; 
-    color: white; 
-    font-size: 16px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+div.envoyer {
+    width: 116.22px;
+    height: 22.08px;
+    left: 11.62px;
+    top: 8.14px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-div.general14{
-    width: 919.27px; 
-    height: 160.38px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute
+div.general14 {
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    position: relative;
 }
 
-div.Nom{
-    width: 75.54px; 
-    height: 18.59px; 
-    left: -0px; 
-    top: 2.32px; 
-    position: absolute; 
-    text-align: center; 
-    color: black; 
-    font-size: 20px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+div.Nom {
+    width: 75.54px;
+    height: 18.59px;
+    left: -0px;
+    top: 2.32px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-div.Prenom{
-    width: 113.89px; 
-    height: 18.59px; 
-    left: -0px; 
-    top: 68.57px; 
-    position: absolute; 
-    text-align: center; 
-    color: black; 
-    font-size: 20px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+div.Prenom {
+    width: 113.89px;
+    height: 18.59px;
+    left: -0px;
+    top: 68.57px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-div.email{
-    width: 88.32px; 
-    height: 18.59px; 
-    left: -0px; 
-    top: 125.51px; 
-    position: absolute; 
-    text-align: center; 
-    color: black; 
-    font-size: 20px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+div.email {
+    width: 88.32px;
+    height: 18.59px;
+    left: -0px;
+    top: 125.51px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-div.rectangle10{
-    width: 784.46px; 
-    height: 37.19px; 
-    left: 134.81px; 
-    top: -0px; 
-    position: absolute; 
-    border-radius: 15px; 
+div.rectangle10 {
+    width: 784.46px;
+    height: 37.19px;
+    left: 134.81px;
+    top: -0px;
+    position: absolute;
+    border-radius: 15px;
     border: 1px black solid
 }
 
-div.rectangle11{
-    width: 784.46px; 
-    height: 37.19px; 
-    left: 134.81px; 
-    top: 66.24px; 
-    position: absolute; 
-    border-radius: 15px; 
+div.rectangle11 {
+    width: 784.46px;
+    height: 37.19px;
+    left: 134.81px;
+    top: 66.24px;
+    position: absolute;
+    border-radius: 15px;
     border: 1px black solid
 }
 
-div.rectangle12{
-    width: 784.46px; 
-    height: 37.19px; 
-    left: 134.81px; 
-    top: 123.19px; 
-    position: absolute; 
-    border-radius: 15px; 
+div.rectangle12 {
+    width: 784.46px;
+    height: 37.19px;
+    left: 134.81px;
+    top: 123.19px;
+    position: absolute;
+    border-radius: 15px;
     border: 1px black solid
 }
-
 
 
 /* Footer */
 
-div.general{
+div.general {
     width: 100%;
     height: 100%;
     position: relative;
     top: 250px;
+    left: 0;
 }
 
-div.background{
+div.background {
     width: 1280px;
     height: 149px;
     left: 0px;
@@ -655,7 +690,7 @@ div.background{
     background: black
 }
 
-div.general2{
+div.general2 {
     width: 249px;
     height: 41px;
     left: 515px;
@@ -663,39 +698,39 @@ div.general2{
     position: absolute
 }
 
-div.rectangle1{
+div.rectangle1 {
     width: 249px;
-    height: 41px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: white; 
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
     border-radius: 18px
 }
 
-div.contacts{
-    width: 206px; 
-    height: 41px; 
+div.contacts {
+    width: 206px;
+    height: 41px;
     left: 29px;
-    top: 0px; 
-    position: absolute; 
-    text-align: center; 
-    color: black; 
-    font-size: 36px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-div.general3{
-    width: 1019.66px; 
-    height: 83.55px; 
-    left: 130px; 
-    top: 62px; 
+div.general3 {
+    width: 1019.66px;
+    height: 83.55px;
+    left: 130px;
+    top: 62px;
     position: absolute
 }
 
-div.general4{
+div.general4 {
     width: 777.66px;
     height: 81.55px;
     left: 242px;
@@ -703,239 +738,238 @@ div.general4{
     position: absolute
 }
 
-div.general5{
+div.general5 {
     width: 224px;
     height: 72px;
-    left: 0px; 
-    top: 5px; 
+    left: 0px;
+    top: 5px;
     position: absolute
 }
 
-div.rectangle2{
-    width: 72px; 
-    height: 72px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: white; 
+div.rectangle2 {
+    width: 72px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
     border-radius: 9999px
 }
 
-div.texteaddress{
-    width: 145px; 
-    height: 69px; 
-    left: 79px; 
-    top: 2px; 
-    position: absolute; 
-    color: white; 
-    font-size: 20px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+div.texteaddress {
+    width: 145px;
+    height: 69px;
+    left: 79px;
+    top: 2px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-img.address{
-    width: 57px; 
-    height: 57px; 
-    left: 7px; 
-    top: 6px; 
+img.address {
+    width: 57px;
+    height: 57px;
+    left: 7px;
+    top: 6px;
     position: absolute
 }
 
-div.general6{
-    width: 197.06px; 
-    height: 78px; 
-    left: 283px; 
-    top: 0px; 
+div.general6 {
+    width: 197.06px;
+    height: 78px;
+    left: 283px;
+    top: 0px;
     position: absolute
 }
 
-div.general7{
-    width: 196.61px; 
-    height: 37px; 
-    left: 0px; 
-    top: 0px; 
+div.general7 {
+    width: 196.61px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
     position: absolute
 }
 
-div.rectangle3{
-    width: 37px; 
-    height: 37px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: white; 
+div.rectangle3 {
+    width: 37px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
     border-radius: 9999px
 }
 
-div.textetel{
-    width: 145.82px; 
-    height: 24.51px; 
-    left: 50.79px; 
-    top: 6.90px; 
-    position: absolute; 
-    color: white; 
-    font-size: 20px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+div.textetel {
+    width: 145.82px;
+    height: 24.51px;
+    left: 50.79px;
+    top: 6.90px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-img.tel{
-    width: 31px; 
-    height: 27px; 
-    left: 2px; 
-    top: 7px; 
+img.tel {
+    width: 31px;
+    height: 27px;
+    left: 2px;
+    top: 7px;
     position: absolute
 }
 
-div.general8{
-    width: 196.06px; 
-    height: 35px; 
-    left: 1px; 
-    top: 43px; 
+div.general8 {
+    width: 196.06px;
+    height: 35px;
+    left: 1px;
+    top: 43px;
     position: absolute
 }
 
-div.rectangle4{
-    width: 35px; 
-    height: 35px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: white; 
+div.rectangle4 {
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
     border-radius: 9999px
 }
 
-div.textefax{
-    width: 145.82px; 
-    height: 26.96px; 
-    left: 50.24px; 
-    top: 5.46px; 
-    position: absolute; 
-    color: white; 
-    font-size: 20px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+div.textefax {
+    width: 145.82px;
+    height: 26.96px;
+    left: 50.24px;
+    top: 5.46px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-img.fax{
-    width: 25px; 
-    height: 22px; 
-    left: 5px; 
-    top: 5px; 
+img.fax {
+    width: 25px;
+    height: 22px;
+    left: 5px;
+    top: 5px;
     position: absolute
 }
 
-div.general9{
-    width: 238.66px; 
-    height: 81.55px; 
-    left: 539px; 
-    top: 0px; 
+div.general9 {
+    width: 238.66px;
+    height: 81.55px;
+    left: 539px;
+    top: 0px;
     position: absolute
 }
 
-div.general10{
-    width: 238.66px; 
-    height: 37px; 
-    left: 0px; 
-    top: 0px; 
+div.general10 {
+    width: 238.66px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
     position: absolute
 }
 
-div.rectangle5{
-    width: 37px; 
-    height: 37px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: white; 
+div.rectangle5 {
+    width: 37px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
     border-radius: 9999px
 }
 
-div.textemail{
-    width: 192.38px; 
-    height: 26.96px; 
-    left: 46.28px; 
-    top: 1.90px; 
-    position: absolute; 
-    color: white; 
-    font-size: 20px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+div.textemail {
+    width: 192.38px;
+    height: 26.96px;
+    left: 46.28px;
+    top: 1.90px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-img.email{
-    width: 26px; 
-    height: 26px; 
-    left: 6px; 
-    top: 5px; 
+img.email {
+    width: 26px;
+    height: 26px;
+    left: 6px;
+    top: 5px;
     position: absolute
 }
 
-div.general11{
-    width: 238.66px; 
-    height: 38.55px; 
-    left: 0px; 
-    top: 43px; 
+div.general11 {
+    width: 238.66px;
+    height: 38.55px;
+    left: 0px;
+    top: 43px;
     position: absolute
 }
 
-div.rectangle6{
-    width: 37px; 
-    height: 37px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: white; 
+div.rectangle6 {
+    width: 37px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
     border-radius: 9999px
 }
 
-div.texteuser{
-    width: 192.38px; 
-    height: 28.18px; 
-    left: 46.28px; 
-    top: 10.37px; 
-    position: absolute; 
-    color: white; 
-    font-size: 20px; 
-    font-family: Montserrat; 
-    font-weight: 700; 
+div.texteuser {
+    width: 192.38px;
+    height: 28.18px;
+    left: 46.28px;
+    top: 10.37px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
     word-wrap: break-word
 }
 
-img.user{
-    width: 25px; 
-    height: 25px; 
-    left: 6px; 
-    top: 5px; 
+img.user {
+    width: 25px;
+    height: 25px;
+    left: 6px;
+    top: 5px;
     position: absolute
 }
 
-div.general12{
-    width: 192px; 
-    height: 77px; 
-    left: 0px; 
-    top: 0px; 
+div.general12 {
+    width: 192px;
+    height: 77px;
+    left: 0px;
+    top: 0px;
     position: absolute
 }
 
-img.logo2{
-    width: 187px; 
-    height: 77px; 
-    left: 0px; 
-    top: 0px; 
+img.logo2 {
+    width: 187px;
+    height: 77px;
+    left: 0px;
+    top: 0px;
     position: absolute
 }
 
-div.rectangle7{
-    width: 5px; 
-    height: 67px; 
-    left: 187px; 
-    top: 5px; 
-    position: absolute; 
+div.rectangle7 {
+    width: 5px;
+    height: 67px;
+    left: 187px;
+    top: 5px;
+    position: absolute;
     background: white
 }
-
