@@ -176,6 +176,18 @@ section.Apropos {
     margin-top: 500px;
 }
 
+.Apropos_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    padding: 20px;
+}
+
+.Apropos_section .Texte .Titre {
+    line-height: 1.3;
+}
+
 img.image {
     width: 250px;
     object-fit: contain;
