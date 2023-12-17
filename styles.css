@@ -190,6 +190,7 @@ section.Apropos {
 
 img.image {
     width: 250px;
+    height: 250px;
     object-fit: contain;
 }
 
@@ -321,6 +322,7 @@ section.OeuvreArts {
 
 img.image {
     width: 250px;
+    height: 250px;
     object-fit: contain;
 }
 
@@ -456,6 +458,7 @@ div.ACTU {
 
 img.calendrier {
     width: 25px;
+    height: 40;
     object-fit: contain;
 }
 
