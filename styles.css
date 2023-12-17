@@ -547,7 +547,9 @@ p.paragraphe6 {
     font-size: 25px;
     font-family: Montserrat;
     font-weight: 700;
-    word-wrap: break-word
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 100px;
 }
 
 p.paragraphe7 {
@@ -564,31 +566,24 @@ p.paragraphe7 {
 
 /* formulaire */
 
+.rectangle8 {
+    display: flex;
+    justify-content: center;
+}
+
 div.general13 {
     width: 100%;
     height: 100%;
     position: relative
 }
 
-div.rectangle8 {}
-
-div.rectangle9 {
-    background: #FF2E00;
-    border-radius: 22.50px
-}
-
 div.envoyer {
-    width: 116.22px;
-    height: 22.08px;
-    left: 11.62px;
-    top: 8.14px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    font-family: Montserrat;
-    font-weight: 700;
-    word-wrap: break-word
+    background-color: #FF2E00;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 20px;
 }
 
 div.general14 {
@@ -636,6 +631,13 @@ section.footer {
 div.basdepage {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactsonglet_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 h2.contactsonglet {
@@ -660,6 +662,7 @@ img.logoDDC2 {
 
 div.Adresseonglet {
     display: flex;
+    align-items: center;
     margin: 40px;
 }
 
@@ -672,8 +675,9 @@ img.adresseicone {
 
 p.adresse {
     color: white;
-    font-size: 10px;
+    font-size: 0.9em;
     margin: 12px;
+    font-weight: bold;
 }
 
 div.Numero {
@@ -691,11 +695,13 @@ img.telicone {
     border-radius: 25px;
     width: 20px;
     height: 20px;
+    padding: 3px;
 }
 
 p.tel {
     color: white;
-    font-size: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
     margin: 5px;
 }
 
@@ -710,11 +716,13 @@ img.fixicone {
     border-radius: 25px;
     width: 20px;
     height: 20px;
+    padding: 3px;
 }
 
 p.fix {
     color: white;
-    font-size: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
     margin: 5px;
 }
 
@@ -734,11 +742,13 @@ img.mailicone {
     border-radius: 30px;
     width: 20px;
     height: 20px;
+    padding: 3px;
 }
 
 p.mail {
     color: white;
-    font-size: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
     margin: 5px;
 }
 
@@ -753,10 +763,12 @@ img.usericone {
     border-radius: 30px;
     width: 20px;
     height: 20px;
+    padding: 3px;
 }
 
 p.user {
     color: white;
-    font-size: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
     margin: 5px;
 }
