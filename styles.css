@@ -75,11 +75,12 @@ header.header {
     justify-content: space-between;
 }
 
-header.header img.Logo {
-    width: 249px;
-    height: 67px;
-    left: 28px;
-    top: 23px;
+img.Logo {
+    width: 180px;
+    height: 47px;
+    left: 30px;
+    top: 14px;
+    z-index: 10;
 }
 
 section.top-page {
@@ -125,6 +126,15 @@ section.top-page {
     font-size: 1.5em;
 }
 
+.menuBack {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+
 @media (min-width: 1200px) {
     header.header {
         transform: translateX(0%) !important;
@@ -135,11 +145,29 @@ section.top-page {
     .menuContent_close {
         display: none;
     }
+    .menuBack {
+        display: none;
+    }
+    .Logo1 {
+        display: none !important;
+    }
 }
 
 @media (max-width: 1200px) {
+    .Logo {
+        display: none;
+    }
+    .Logo1 {
+        display: block !important;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
     section.top-page {
         transform: none;
+    }
+    .menuBack {
+        display: block;
     }
     header.header {
         align-items: left;
